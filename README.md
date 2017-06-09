@@ -21,7 +21,7 @@ Prerequisites:
 
 ####For development (js server + java server):
 1. Package the java project or launch Application.java from your IDE
- * mvn clean package 
+ * mvn clean package
 2. launch the backend spring boot application, it runs in localhost:8082
     * java -jar [PARENT_MODULE]/server/target/server-0.14-SNAPSHOT.war
 3. launch the webpack server for the frontend
@@ -35,3 +35,30 @@ Prerequisites:
 2. launch the backend spring boot application, it runs in localhost:8082
     * java -jar [PARENT_MODULE]/server/target/server-0.14-SNAPSHOT.war
 3. open your browser and visit http://localhost:8082
+
+Docker:
+
+build with:
+docker build -t my-java-app .
+run with:
+docker run –rm -it -p 8080:8080  my-java-app java -jar /usr/src/myapp/angular2.jar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
